@@ -9,13 +9,13 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "0"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "0"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "NOV 03-04, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "JUN 22-23, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:00 pm EDT (1:00 pm - 8:00 pm UTC)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2021-11-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2021-11-04        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Jean-Paul Courneya", "Amy Yarnell", "Brian Zelip"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Katherine Downton", "Michele Nance", "Niaz Khan", "Nina Exner"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["data@hshsl.umaryland.edu","jpcourneya@hshsl.umaryland.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+startdate: 2022-06-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2022-06-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Jean-Paul Courneya", "Amy Yarnell"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["data@hshsl.umaryland.edu","cnieman@hshsl.umaryland.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -308,7 +308,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p>Please take a moment to give us feedback on your experience. Your responses are anonymous. Your participation is voluntary, but your feedback will be very helpful for planning future NNLM and Library Carpentry training sessions. The information gathered through this form will be shared with the Network of the National Library of Medicine and The Carpentries for program improvement purposes.</p>
 {% if site.carpentry == "incubator" %}
 <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
